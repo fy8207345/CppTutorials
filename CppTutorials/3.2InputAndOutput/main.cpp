@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 
 int main(int argc, char** argv)
@@ -12,11 +13,14 @@ int main(int argc, char** argv)
     int age;
     std::string name;
 
-    std::cout << "Please type in your last name:" << std::endl;
-    std::cin >> name;
+    // std::cout << "Please type in your last name:" << std::endl;
+    // std::cin >> name;
 
-    std::cout << "Please type in your age: " << std::endl;
-    std::cin >> age;
+    // std::cout << "Please type in your age: " << std::endl;
+    // std::cin >> age;
+
+    std::cout << "type your name and age: " << std::endl;
+    std::cin >> name >> age;
 
     std::cout << "Hello " << name << "! Your are " << age << " years old!" << std::endl;
 
