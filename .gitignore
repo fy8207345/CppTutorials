@@ -3,3 +3,4 @@
 **/release/
 **/target/
 **/*.exe
+**/.vs/
