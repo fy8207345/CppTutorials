@@ -14,6 +14,9 @@ int main(int argc, char** argv)
     auto m = maximum(1,23); 
     std::cout << "maximum: " << m << std::endl;
     std::cout << "maximum: " << maximum(12.2,2.7) << std::endl;
+
+    double a = maximum<double>(x, y);
+    std::cout << a << ", sizeof(a) : " << sizeof(a) << std::endl;
     return 0;
 }
 
